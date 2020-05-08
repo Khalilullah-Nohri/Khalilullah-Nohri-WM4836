@@ -1,0 +1,102 @@
+.row{
+    /* display: inline-block; */
+    background-color: blue;
+    height: 65px;
+    margin: -08px 0px 0px 0px;
+    /* padding: 20px; */
+    /* word-spacing: 10px; */
+}
+.class1{
+    word-spacing: 17px;
+    /* background-color: black; */
+    width: 20%;
+    /* display: inline-block; */
+    float: left;
+    margin: 0.3%;
+}
+.class{
+    padding: 15px 62px 0px;
+}
+.li1{
+display: inline-block  ;
+}
+.image1{
+    height: 25px;
+}
+.class2{
+    /* display: inline-block; */
+    /* width: 25%; */
+    /* background-color: red; */
+
+    color: white;
+    float: left;
+    font-size: 19px;
+    margin: 02px 0px 0px 0px;
+    /* max-height: 90px; */
+      /* height: 25px; */
+    padding: 05px 45px 02px 50px;  
+}
+ 
+.button1{
+    /* word-spacing: 10px; */
+    background-color: white;
+    color: black;
+    /* letter-spacing: 100px; */
+    text-decoration: none;
+    padding: 07px;
+    margin: 04px;
+}
+.anchortag{
+    text-decoration: none;
+}
+.navigation{
+    background-position: 10px;
+    /* background-color: red; */
+    height: 80px;
+}
+.image2{
+    height: 60px;
+    padding: 10px 90px;
+    float: left;
+
+}
+.li2{
+    display: inline-block;
+    font-size: 20px;
+    border: 20px;
+    float: left;
+}
+.li2:hover{
+    font-weight: bold;
+    border-radius: 20px ; 
+    background-color: blue;
+    word-spacing: 20px;
+}
+.class5{
+    float: left;
+    padding: 0px 100px ;
+    /* word-spacing: 50px; */
+}
+.navigation2{
+    float: left;
+    padding: 13px 50px;
+    word-spacing: 30px;
+    /* background-color: yellow; */
+    margin: 0px 0px;
+
+}
+
+
+.Intro{
+    text-align: center;
+    color: blue;
+}
+.slider{
+    padding: 0px 70px;
+}
+.paragraph{
+    padding: 0px 130px;
+    /* text-align: center; */
+    text-align: justify;
+    height: auto;    
+}
