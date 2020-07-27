@@ -907,3 +907,258 @@
 
 // task-2
 {/* <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt="JavaScript LOGO" onclick="alert('Images is clicked')"> */}
+
+
+// task-3
+{/* <table border="2px" id="myTable">
+<tr>
+    <td>Index</td>
+    <td>Name</td>
+    <td>Class</td>
+    <td></td>
+</tr>
+<tr>
+    <td>0</td>
+    <td id="S0" value="Student 0">Student 0</td>
+    <td id="S-10">10</td>
+    <td> <button onclick="deleteRow(1)">Delete</button> </td>
+</tr>
+<tr>
+    <td>1</td>
+    <td id="S1">Student 1</td>
+    <td>9</td>
+    <td> <button onclick="deleteRow(2)">Delete</button> </td>
+</tr>
+<tr>
+    <td>2</td>
+    <td id="S2">Student 2</td>
+    <td>8</td>
+    <td> <button onclick="deleteRow(3)">Delete</button> </td>
+</tr>
+<tr>
+    <td>3</td>
+    <td id="S3">Student 3</td>
+    <td>7</td>
+    <td> <button onclick="deleteRow(4)">Delete</button> </td>
+</tr>
+<tr>
+    <td>4</td>
+    <td id="S4">Student 4</td>
+    <td>6</td>
+    <td> <button onclick="deleteRow(5)">Delete</button> </td>
+</tr>
+<tr>
+    <td>5</td>
+    <td id="S5">Student 5</td>
+    <td>5</td>
+    <td> <button onclick="deleteRow(6)">Delete</button> </td>
+</tr>
+<tr>
+    <td>6</td>
+    <td id="S3">Student 6</td>
+    <td>4</td>
+    <td> <button onclick="deleteRow(7)">Delete</button> </td>
+</tr>
+<tr>
+    <td>7</td>
+    <td id="S3">Student 7</td>
+    <td>3</td>
+    <td> <button onclick="deleteRow(8)">Delete</button> </td>
+</tr>
+<tr>
+    <td>8</td>
+    <td id="S3">Student 8</td>
+    <td>2</td>
+    <td> <button onclick="deleteRow(9)">Delete</button> </td>
+</tr>
+<tr>
+    <td>9</td>
+    <td id="S3">Student 9</td>
+    <td>1</td>
+    <td> <button onclick="deleteRow(10)">Delete</button> </td>
+</tr>
+
+</table>
+
+
+
+// below is code of javscript of ques:3
+function deleteRow(num){
+
+var v=document.getElementById("myTable").deleteRow(num)
+} */}
+
+
+// task-4
+
+//<img onmouseover="this.src='photo.jpg'" onmouseout="src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7DPwo_kmpngcXocC_WUhUvLIh0bxjR_Iqfw&usqp=CAU'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7DPwo_kmpngcXocC_WUhUvLIh0bxjR_Iqfw&usqp=CAU" alt="image1"></img>
+
+//task-5
+
+// <button onclick="increment()">Increase</button>
+    
+// <p id="para">0</p>
+
+// <button onclick="decrement()">Decrease</button>
+
+
+// Javscript Code
+// var para=0
+// function increment(){
+    
+//  para= document.getElementById('para');
+//  para.innerHTML++;
+
+// }
+// function decrement(){
+    
+//     para= document.getElementById('para');
+//     para.innerHTML--;
+
+// }
+// END chapter(43-48)
+
+
+
+// chapter(49-52)
+// task-1
+
+// html code of task-1
+/* <table border="2px" style="border: 2px solid black; margin: 0 auto;">
+<tr>
+    <td>Full Name</td>
+    <td> <input type="text" name="fullname" id="name"></td>
+</tr>
+
+<tr>
+
+     <td>Email Address</td>
+    <td> <input type="email" name="email" id="email"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td> <input type="password" name="password" id="password"></td>
+
+</tr>
+
+<tr>
+    <td colspan="2" align="center"><button type="submit"  id="submitt" onclick="dataSubmission()">Submitt</button></td>
+</tr>
+</table> */
+
+
+// javscript code task-1
+// function dataSubmission(){
+// alert('Name is '+document.getElementById("name").value)
+// alert('Email is '+document.getElementById("email").value)
+// alert('Password is '+document.getElementById("password").value)
+
+// }
+
+
+
+// task-2
+
+// html code
+/* <p id="readMore">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo totam ullam deleniti. Commodi omnis
+illo alias ipsam reiciendis exercitationem, <a href="#"  onclick="readMore()">Read More</a> </p> */
+
+
+// javascript code
+// function readMore(){
+// var text=document.getElementById('readMore')
+// var para=   'aaaaaaaaaaaaa sit amet consectetur adipisicing elit. Harum aliquam maxime eaque sit facere autem dolorum sunt quia officia totam, voluptates alias laborum earum sint, possimus magni ea, mollitia velit.'
+// text.innerHTML=para
+
+
+//task-3
+
+// <table border="2px" id="myTable">
+//         <tr>
+//             <td>Index</td>
+//             <td>Name</td>
+//             <td>Class</td>
+//             <td colspan="2"></td>
+//         </tr>
+//         <tr>
+//             <td>0</td>
+//             <td id="S0" value="Student 0">Student 0</td>
+//             <td id="S-10">10</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(1)">Delete</button> </td>
+//         </tr>
+//         <tr>
+//             <td>1</td>
+//             <td id="S1">Student 1</td>
+//             <td>9</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(2)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>2</td>
+//             <td id="S2">Student 2</td>
+//             <td>8</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(3)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>3</td>
+//             <td id="S3">Student 3</td>
+//             <td>7</td>
+
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(4)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>4</td>
+//             <td id="S4">Student 4</td>
+//             <td>6</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(5)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>5</td>
+//             <td id="S5">Student 5</td>
+//             <td>5</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(6)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>6</td>
+//             <td id="S3">Student 6</td>
+//             <td>4</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(7)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>7</td>
+//             <td id="S3">Student 7</td>
+//             <td>3</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(8)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>8</td>
+//             <td id="S3">Student 8</td>
+//             <td>2</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(9)">Delete</button> </td>
+
+//         </tr>
+//         <tr>
+//             <td>9</td>
+//             <td id="S3">Student 9</td>
+//             <td>1</td>
+//             <td><button onclick="edit()">Edit</button></td>
+//             <td> <button onclick="deleteRow(10)">Delete</button> </td>
+
+//         </tr>
+
+//     </table>
